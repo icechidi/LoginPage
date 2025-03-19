@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="welcome-section">
+                <h2>WELCOME BACK | LOGIN FORM</h2>
+                <p>Enter your info to login to your account...</p>
+            </div>
+
+            <div class="form-section">
+                <h2 id="form-title">Login</h2>
+
+                <form action="" id="form">
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label for="">Username</label>
+                        <i class="bx bxs-user"></i>
+                    </div>
+
+                    <div class="input-box" id="email-box">
+                        <input type="email" required>
+                        <label for="">Email</label>
+                        <i class="bx bxs-envelope"></i>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label for="">Password</label>
+                        <i class="bx bxs-lock-alt"></i>
+                    </div>
+
+                    <button type="submit" class="btn">Login</button>
+
+                    <p class="toggle-text">Forgotten Passwordt? <a href="#" id="toggle-login">Login</a> </p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
