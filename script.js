@@ -16,6 +16,11 @@ document.addEventListener("DOMContentLoaded", function(){
             emailBox.style.display = "none";
             submitButton.textContent = "Login";
             toggleLogin.textContent = "Sign Up";
+        }else{
+            formTitle.textContent = "Sign Up";
+            emailBox.style.display = "block";
+            submitButton.textContent = "Sign Up";
+            toggleLogin.textContent = "Login";
         }
     })
 })
