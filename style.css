@@ -8,6 +8,7 @@
 
 }
 
+/* Body design */
 body{
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ body{
     background: #f1f1f1;
 }
 
+/* Holding the content */
 .container{
     background: #fff;
     max-width: 600px;
